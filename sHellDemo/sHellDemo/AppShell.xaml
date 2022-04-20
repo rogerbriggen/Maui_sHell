@@ -13,7 +13,7 @@
             Route="MainPage" />
         <ShellContent 
             Title="Events"
-            Icon="dotnet_bot.png"
+            Icon="dotnet_bot.svg"
             Route="events"
             ContentTemplate="{DataTemplate local:EventsPage}" />
     </TabBar>
