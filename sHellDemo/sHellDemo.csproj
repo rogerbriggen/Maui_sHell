@@ -52,6 +52,9 @@
 	  <Compile Update="EventsDetailsPage.xaml.cs">
 	    <DependentUpon>EventsDetailsPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="DummyPage.xaml.cs">
+	    <DependentUpon>DummyPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="EventsPage.xaml.cs">
 	    <DependentUpon>EventsPage.xaml</DependentUpon>
 	  </Compile>
@@ -59,6 +62,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="EventsDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="DummyPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="EventsPage.xaml">

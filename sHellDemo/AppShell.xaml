@@ -16,5 +16,20 @@
             Icon="dotnet_bot.png"
             Route="events"
             ContentTemplate="{DataTemplate local:EventsPage}" />
+        <ShellContent 
+            Title="Dummy1"
+            Icon="dotnet_bot.png"
+            Route="dummyPage1"
+            ContentTemplate="{DataTemplate local:DummyPage}" />
+        <ShellContent 
+            Title="Dummy2"
+            Icon="dotnet_bot.png"
+            Route="dummyPage2"
+            ContentTemplate="{DataTemplate local:DummyPage}" />
+        <ShellContent 
+            Title="Dummy3"
+            Icon="dotnet_bot.png"
+            Route="dummyPage3"
+            ContentTemplate="{DataTemplate local:DummyPage}" />
     </TabBar>
 </Shell>

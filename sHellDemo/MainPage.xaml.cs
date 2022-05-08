@@ -16,5 +16,11 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterLabel.Text);
 	}
+
+    private void Switch_Toggled(object sender, ToggledEventArgs e)
+    {
+        Application.Current.UserAppTheme = (e.Value ? AppTheme.Dark : AppTheme.Light);
+    }
+
 }
 
