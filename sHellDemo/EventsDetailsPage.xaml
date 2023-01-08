@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="sHellDemo.EventDetailsPage">
+             x:Class="sHellDemo.EventDetailsPage"
+             Title="Events Detail Page"
+             Shell.TabBarIsVisible="False">
     <StackLayout>
-        <Label Text="Detail page" />
+        <Label Text="Events Detail page without Shell Tabbar" />
     </StackLayout>
 </ContentPage>
